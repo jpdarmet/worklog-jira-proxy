@@ -1,0 +1,16 @@
+{
+    "name": "worklog-jira-proxy",
+    "private": true,
+    "version": "0.0.1",
+    "description": "nodejs app",
+    "dependencies": {
+        "express": "latest",
+        "morgan": "latest",
+        "body-parser": "latest",
+        "method-override": "latest",
+    },
+    "main": "app.js",
+    "repository": "https://github.com/cyrilepinat/worklog-jira-proxy.git",
+    "author": "Cyril Epinat - epicyr@gmail.com",
+    "license": ""
+}
