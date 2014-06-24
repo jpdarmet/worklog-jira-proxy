@@ -10,7 +10,7 @@ var JiraCtrl = require('./controllers/JiraCtrl');
 // Configuration
 app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
-app.use(bodyParser());
+app.use(bodyParser.urlencoded());
 app.use(methodOverride());
 
 console.log("starting...");
