@@ -7,7 +7,7 @@
         "express": "latest",
         "morgan": "latest",
         "body-parser": "latest",
-        "method-override": "latest",
+        "method-override": "latest"
     },
     "main": "app.js",
     "repository": "https://github.com/cyrilepinat/worklog-jira-proxy.git",
