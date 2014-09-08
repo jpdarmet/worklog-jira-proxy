@@ -21,7 +21,8 @@ module.exports = function JiraCtrl(app) {
                 jql: req.query.jql,
                 startAt: 0,
                 maxResults: 5000,
-                fields: req.query.fields
+                fields: req.query.fields,
+                expand: req.query.expand
             };
 
             //set options for url
