@@ -6,11 +6,11 @@ module.exports = {
         host: "issuetracker.sicap.com",
         path: "/jira/rest/api/2/search",
         port: 443,
-        certificateLocation: "./certificat/issuetracker.sicap.com.cer"
+        certificateLocation: "./certificat/developer.sicap.com.cer"
     },
     credentials: {
-        username: "<USER>",
-        password: "<PASSWORD>"
+        username: "ext_norsys_darmet",
+        password: "p0p0lita"
     }
 
 };
